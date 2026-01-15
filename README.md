@@ -71,6 +71,7 @@ conda activate ml
 pip install ultralytics opencv-python numpy
 
 nvidia-smi
+```
 
 ## 🏋️ Training
 
