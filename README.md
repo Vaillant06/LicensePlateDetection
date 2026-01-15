@@ -97,8 +97,13 @@ device=0
 
 Run detection on images or folders:
 
+### Python file to  test the model
 python test_license_plate.py
+
+### Test Images Folder
 test_images/
+
+### Prediction output
 results/preds/
 
 
