@@ -67,14 +67,23 @@ cd LicensePlateDetection
 ```
 
 ### 2️⃣ Create and activate Conda environment
+
+```bash
 conda create -n ml python=3.10 -y
 conda activate ml
+```
 
 ### 3️⃣ Install dependencies
+
+```bash
 pip install ultralytics opencv-python numpy
+```
 
 ### 4️⃣ Verify GPU access
+
+```bash
 nvidia-smi
+```
 
 
 ## 🏋️ Training
