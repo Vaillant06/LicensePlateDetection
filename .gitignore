@@ -56,8 +56,5 @@ desktop.ini
 *.yaml~
 *.yml~
 
-#Txt files
-*.txt
-
 #models
 *.pt
