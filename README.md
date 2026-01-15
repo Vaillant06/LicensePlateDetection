@@ -101,10 +101,10 @@ Run detection on images or folders:
 python test_license_plate.py
 
 ### Test Images Folder
-test_images/
+test_images
 
 ### Prediction output
-results/preds/
+results/preds
 
 
 ## 🔐 .gitignore
