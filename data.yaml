@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['License_Plate']
+
+roboflow:
+  workspace: srees-workspace
+  project: license-plate-3fwju-5lgfo
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/srees-workspace/license-plate-3fwju-5lgfo/dataset/1

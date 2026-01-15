@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.eggs/
+
+# Virtual environment
+.env
+.venv
+env/
+venv/
+ml/
+*.conda
+
+# Ultralytics / YOLO Runs
+runs/
+results/
+lp_detect/
+preds/
+*.mp4
+*.avi
+
+# Roboflow dataset output
+*.zip
+*.tar
+*.gz
+dataset/
+data/
+train/
+valid/
+test/
+labels/
+test_images/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Cache + Logs
+.cache/
+*.log
+*.tmp
+
+# Jupyter / ipynb checkpoints
+.ipynb_checkpoints/
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Config backups
+*.yaml~
+*.yml~
+
+#Txt files
+*.txt
+
+#models
+*.pt
