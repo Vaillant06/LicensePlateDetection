@@ -79,7 +79,7 @@ nvidia-smi
 
 python training_license_plate.py
 
-Key arguments used:
+### Key arguments used:
 
 epochs=50
 
@@ -92,6 +92,15 @@ cos_lr=True
 patience=15
 
 device=0
+
+## 📸 Inference
+
+Run detection on images or folders:
+
+python test_license_plate.py
+test_images/
+results/preds/
+
 
 ## 🔐 .gitignore
 
