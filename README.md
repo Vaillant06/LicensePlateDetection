@@ -73,10 +73,10 @@ conda create -n ml python=3.10 -y
 conda activate ml
 ```
 
-### 3️⃣ Install dependencies
+### 3️⃣ Install dependencies using requirements.txt
 
 ```bash
-pip install ultralytics opencv-python numpy
+pip install -r requirements.txt
 ```
 
 ### 4️⃣ Verify GPU access
