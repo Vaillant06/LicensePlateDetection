@@ -8,15 +8,15 @@ url = "http://192.168.29.38:8080/stream.mjpeg"
 cap = cv2.VideoCapture(url)
 
 if not cap.isOpened():
-    print("❌ Unable to open MJPEG stream")
+    print("Unable to open MJPEG stream")
     exit()
 
 print("🎥 Streaming started... Press 'q' to exit")
 
 while True:
     ret, frame = cap.read()
-    if not ret:
-        print("❌ Frame not received")
+    if not ret: 
+        print("Frame not received")
         break
 
     results = model(frame)
